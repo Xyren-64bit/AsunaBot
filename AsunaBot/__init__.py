@@ -45,4 +45,6 @@ bot_start_time = time.time()
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.AsunaBot
 app = Client("AsunaBot", bot_token=BOT_TOKEN, api_id=API_ID, api_hash=API_HASH)
-arq = ARQ(ARQ_API)
+
+aiohttpsession = ClientSession()
+arq = ARQ(ARQ_API, ARQ_API_KEY, aiohttpsession)
