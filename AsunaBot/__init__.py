@@ -1,7 +1,7 @@
 from config import (
     BOT_TOKEN, API_ID, API_HASH, OWNER_ID, SUDO_USER_ID,
     LOG_GROUP_ID, FERNET_ENCRYPTION_KEY, MONGO_DB_URI,
-    WELCOME_DELAY_KICK_SEC, ARQ_API_BASE_URL as ARQ_API
+    WELCOME_DELAY_KICK_SEC, ARQ_API_BASE_URL as ARQ_API, ARQ_API_KEY
 )
 from pyrogram import Client
 from aiohttp import ClientSession
