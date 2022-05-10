@@ -41,7 +41,7 @@ def __list_all_modules():
     return all_modules
 
 
-importlib.import_module("AsunaBot.modules.__main__")
+importlib.import_module("AsunaBot.__main__")
 ALL_MODULES = sorted(__list_all_modules())
 log.info("Modules loaded: %s", str(ALL_MODULES))
 __all__ = ALL_MODULES + ["ALL_MODULES"]
