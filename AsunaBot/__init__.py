@@ -4,6 +4,7 @@ from config import (
     WELCOME_DELAY_KICK_SEC, ARQ_API_BASE_URL as ARQ_API
 )
 from pyrogram import Client
+from aiohttp import ClientSession
 from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 from Python_ARQ import ARQ
 import time
