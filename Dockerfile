@@ -1,7 +1,7 @@
 FROM williambutcherbot/python:latest
 
-WORKDIR /wbb
-RUN chmod 777 /wbb
+WORKDIR /AsunaBot
+RUN chmod 777 /AsunaBot
 
 # Installing Requirements
 RUN pip3 install -U pip
